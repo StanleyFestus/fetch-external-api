@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta http-equiv="X-UA-Compatible" content="ie=edge">
+			<link href="style.css" rel="stylesheet" />
+			<title>Fetch API Sandbox</title>
+		</head>
+
+		<body>
+			<button id="getText" class="button">Get Text</button>
+
+			<button id="getJson" class="button">Get Json</button>
+
+			<button id="getPosts" class="button">Get External API</button>
+			<hr/>
+			<div id="txt"></div>
+			<form id="addPost">
+				<div>
+					<input id="title" type="text" placeholder="title" class="input"/>
+				</div>
+				<br />
+				<div>
+					<textarea id="body" placeholder="body" class="textarea">
+					</textarea>
+				</div>
+				<br />
+				<input type="submit" value="Submit" class="submit"/>
+			</form>
+			<hr>
+			<button id="modalBtn" class="button">Click Modal
+			</button>
+			<div id="simpleModal" class="modal">
+				<div class="modal-content">
+					<span class="closeBtn">&times;</span>
+						<h3 class="modal-header">Modal Header</h3>
+						<div class="modal-body">
+							<p>Lorem ipsum, lorem ipsum dolor sit amet, Lorem, 
+							dummy text, loren ipsum, Lorem ipsum sample textipsum 
+							loremlorem ipsum sample, Latin copy text, Lorem ipsum 
+							Lorem ipsu, and many 
+							</p>
+						</div>
+						<div class="modal-footer">
+							<p>&copy; Stanley</p>
+						</div>
+					</div>
+			</div>
+		</body>
+	<script src="main.js">
+	</script>
+</html>
